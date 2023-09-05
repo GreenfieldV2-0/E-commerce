@@ -3,7 +3,7 @@ const db = {
   host: 'localhost',
   user: 'root',
   password:'root',
-  database:'zara',
+  database:'root',
 };
 
 const connection: Connection  = mysql.createConnection(db);
