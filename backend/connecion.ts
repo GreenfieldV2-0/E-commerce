@@ -6,7 +6,7 @@ const db = {
   database:'zara',
 };
 
-const connection: Connection = mysql.createConnection(db);
+const connection: Connection  = mysql.createConnection(db);
 connection.connect((error) => {
   if (error) {
     console.error("Failed to connect to database:", error);
